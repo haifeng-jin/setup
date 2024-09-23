@@ -1,4 +1,8 @@
+# Install zsh
+sudo apt install zsh
+
 # Install oh-my-zsh
+sudo apt install wget
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 # Setup theme to pure
