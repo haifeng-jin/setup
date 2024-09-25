@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -114,8 +114,5 @@ prompt pure
 # Bind ctrl+space key to zsh auto completion
 bindkey '^ ' autosuggest-accept
 
-# Use hgd command
-source /etc/bash_completion.d/hgd
-
-# Add XManager command
-alias xmanager="/google/bin/releases/xmanager/cli/xmanager.par"
+# Add conda to path
+export PATH="~/miniconda3/bin:$PATH"
