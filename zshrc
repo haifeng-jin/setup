@@ -113,6 +113,3 @@ prompt pure
 
 # Bind ctrl+space key to zsh auto completion
 bindkey '^ ' autosuggest-accept
-
-# Add conda to path
-export PATH="~/miniconda3/bin:$PATH"
