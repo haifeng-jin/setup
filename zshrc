@@ -113,3 +113,8 @@ prompt pure
 
 # Bind ctrl+space key to zsh auto completion
 bindkey '^ ' autosuggest-accept
+
+# Scroll up and down for the previous and next command in history
+bindkey '^P' up-line-or-history
+bindkey '^N' down-line-or-history
+
