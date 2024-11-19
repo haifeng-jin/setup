@@ -1,3 +1,4 @@
+#!/bin/bash
 # Install tmux
 sudo apt install tmux
 

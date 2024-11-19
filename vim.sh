@@ -1,3 +1,4 @@
+#!/bin/bash
 # Download my vim config
 git clone https://github.com/haifeng-jin/vim-config.git ~/.vim
 
