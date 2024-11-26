@@ -14,4 +14,4 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Copy the zshrc
-cp zshrc ~/.zshrc
+cp zsh/zshrc ~/.zshrc
