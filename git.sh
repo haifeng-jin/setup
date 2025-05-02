@@ -19,3 +19,4 @@ sudo apt update
 # Install the `gh` command
 sudo apt install gh
 gh auth login
+gh config set editor vim
