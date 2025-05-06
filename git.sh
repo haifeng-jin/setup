@@ -19,4 +19,6 @@ sudo apt update
 # Install the `gh` command
 sudo apt install gh
 gh auth login
+# Set the default editors to vim
 gh config set editor vim
+git config --global core.editor "vim"
