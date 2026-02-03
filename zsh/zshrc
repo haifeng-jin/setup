@@ -106,6 +106,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Print the output of commands on screen not in a new view.
+export PAGER=""
+
 # The pure theme
 fpath+=($HOME/.zsh/pure)
 autoload -U promptinit; promptinit
