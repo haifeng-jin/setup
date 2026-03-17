@@ -28,3 +28,4 @@ fi
 
 # Deploy the personal .zshrc configuration file.
 cp "$SCRIPT_DIR/zshrc" ~/.zshrc
+echo "exec zsh" >> ~/.bashrc

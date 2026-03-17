@@ -7,7 +7,7 @@ if [ ! -f "$HOME/.bashrc" ]; then
     touch "$HOME/.bashrc"
 fi
 
-export NVM_DIR="$HOME/.config/nvm"
+export NVM_DIR="$HOME/.nvm"
 
 # Install NVM (Node Version Manager) if it's not already installed.
 if [ ! -s "$NVM_DIR/nvm.sh" ]; then
